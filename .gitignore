@@ -1,0 +1,14 @@
+/.vscode/
+.vscode/
+/.idea/
+.idea/
+/__MACOSX/
+/.DS_Store/
+.DS_Store/
+.DS_Store
+/node_modules/
+node_modules/
+*.exe
+*.env
+*.log
+*.o

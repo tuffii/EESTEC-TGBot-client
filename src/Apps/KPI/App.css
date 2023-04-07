@@ -1,0 +1,420 @@
+.customElement#kpi {
+    position: absolute;
+
+    top: 0%;
+    left: 0%;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: calc(100%);
+    height: max-content;
+
+    margin: 0;
+    padding: 0;
+
+    border: none;
+    background: none;
+
+    z-index: 1;
+}
+
+.customElement#kpi > .content {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: calc(95%);
+    height: max-content;
+
+    margin: 1% 0 0 0;
+    padding: 1%;
+
+    border: none;
+    background: none;
+
+    z-index: 1;
+}
+
+.customElement#kpi > .content > .kpiInfo {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    border: none;
+    background: none;
+
+    width: calc(100%);
+    height: calc(20%);
+
+    margin: 0;
+    padding: 0;
+
+    z-index: 1;
+}
+
+.customElement#kpi > .content > .kpiInfo > .name {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    border: none;
+    border-radius: 2vh;
+    background: rgba(15, 15, 15, 0.95);
+
+    width: max-content;
+    height: max-content;
+
+    margin: 1% auto 1% 0;
+    padding: 2%;
+
+    z-index: 1;
+}
+
+.customElement#kpi > .content > .kpiInfo >.name > span {
+    color: rgba(235, 235, 235, 0.9);
+
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: none;
+    text-decoration: none;
+    text-align: center;
+
+    font-size: 3.6vw;
+    line-height: 2vw;
+    letter-spacing: 0;
+    font-weight: 400;
+    text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+}
+
+.customElement#kpi > .content > .kpiInfo > .kpi {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    border-radius: 2vh;
+    background: rgba(15, 15, 15, 0.95);
+
+    width: max-content;
+    height: max-content;
+
+    margin: 1% 0 1% auto;
+    padding: 2%;
+
+    z-index: 1;
+}
+
+.customElement#kpi > .content > .kpiInfo > .kpi > span {
+    color: rgba(235, 235, 235, 0.9);
+
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: none;
+    text-decoration: none;
+    text-align: center;
+
+    font-size: 3.6vw;
+    line-height: 2vw;
+    letter-spacing: 0;
+    font-weight: 400;
+    text-shadow: 0 0 2px rgb(255 255 255 / 35%);
+}
+
+.customElement#kpi > .content > .tasks {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    border: none;
+    border-radius: 3vh;
+    background: rgba(15, 15, 15, 0.9);
+
+    width: calc(100%);
+    height: calc(80%);
+
+    margin: 0;
+    padding: 0;
+
+    z-index: 1;
+}
+
+.customElement#kpi > .content > .tasks > .table {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    background: none;
+
+    width: calc(95%);
+    height: calc(80%);
+
+    margin: 1vh 0 1vh 1%;
+    padding: 0;
+
+    z-index: 1;
+}
+
+.customElement#kpi > .content > .tasks > .table > .header {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    border: none;
+    background: none;
+
+    width: calc(100%);
+    height: calc(80%);
+
+    margin: 1% 0 0 0;
+    padding: 0;
+
+    z-index: 1;
+}
+
+.customElement#kpi > .content > .tasks > .table > .header > .tag {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: calc(15%);
+    height: max-content;
+
+    margin: 0.5%;
+    padding: 0;
+
+    border: none;
+    background: none;
+
+    z-index: 1;
+}
+
+.customElement#kpi > .content > .tasks > .table > .header > .tag > span {
+    color: rgba(235, 235, 235, 0.9);
+
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: none;
+    text-decoration: none;
+    text-align: center;
+
+    font-size: 3vw;
+    line-height: 2vw;
+    letter-spacing: 0px;
+    font-weight: 400;
+    text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+}
+
+.customElement#kpi > .content > .tasks > .table > .header > .description {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: calc(50%);
+    height: max-content;
+
+    margin: 0.5%;
+    padding: 0;
+
+    border: none;
+    background: none;
+
+    z-index: 1;
+}
+
+.customElement#kpi > .content > .tasks > .table > .header > .description > span {
+    color: rgba(235, 235, 235, 0.9);
+
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: none;
+    text-decoration: none;
+    text-align: center;
+
+    font-size: 3vw;
+    line-height: 2vw;
+    letter-spacing: 0px;
+    font-weight: 400;
+    text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+}
+
+.customElement#kpi > .content > .tasks > .table > .header > .date {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: calc(23.5%);
+    height: max-content;
+
+    margin: 0.5%;
+    padding: 0;
+
+    border: none;
+    background: none;
+
+    z-index: 1;
+}
+
+.customElement#kpi > .content > .tasks > .table > .header > .date > span {
+    color: rgba(235, 235, 235, 0.9);
+
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: none;
+    text-decoration: none;
+    text-align: center;
+
+    font-size: 3vw;
+    line-height: 2vw;
+    letter-spacing: 0px;
+    font-weight: 400;
+    text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+}
+
+.customElement#kpi > .content > .tasks > .table > .header > .count {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: calc(10%);
+    height: max-content;
+
+    margin: 0;
+    padding: 0;
+
+    border: none;
+    background: none;
+
+    z-index: 1;
+}
+
+.customElement#kpi > .content > .tasks > .table > .header > .count > span {
+    color: rgba(235, 235, 235, 0.9);
+
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: none;
+    text-decoration: none;
+    text-align: center;
+
+    font-size: 3vw;
+    line-height: 2vw;
+    letter-spacing: 0px;
+    font-weight: 400;
+    text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+}
+
+.customElement#kpi > .content > .tasks > .table > .list {
+    position: relative;
+
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: calc(100%);
+    height: max-content;
+
+    margin: 0.2% 0.5% 1% 0.5%;
+    padding: 0;
+
+    border: none;
+    background: none;
+
+    z-index: 1;
+}
