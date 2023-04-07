@@ -385,7 +385,7 @@ const Component: SolidJS.Component = () => {
   const [Users, SetUsers] = SolidJS.createSignal([...DefaultUsers], { equals: (_prev, _next) => false })
 
   const UpdateUsersByStringFilter = (searchQuery: string): void => {
-    SetUsers([...Users().filter((_el, _ind, _arr) => `${_el.Name.First}${_el.Name.Second}${_el.Name.Third}`.toLowerCase().includes(searchQuery.toLowerCase()))])
+    SetUsers([...DefaultUsers.filter((_el, _ind, _arr) => `${_el.Name.First}${_el.Name.Second}${_el.Name.Third}`.toLowerCase().includes(searchQuery.toLowerCase()))])
   }
 
   const GetCheckedUsers = (): Components.userList.Users => Users().filter((_el, _ind, _arr) => _el.Flag)
