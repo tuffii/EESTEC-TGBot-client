@@ -1,8 +1,7 @@
 import * as SolidJS from "solid-js";
 import { createSignal } from 'solid-js';
-import LogoPNG from '../../Assets/Media/Images/logo.png'
+import LogoPNG from '../../Assets/Media/Images/logo_rate.png'
 import * as Components from './Components/__components'
-import * as Hooks from "../../Hooks/__hooks";
 import "./App.css";
 
 const Component: SolidJS.Component = () => {
