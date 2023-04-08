@@ -60,13 +60,13 @@ const Component: SolidJS.Component<rating> = (_) => {
                 <div
                   class={`marker`}
                   style={{
-                    background: `rgba(${255}, ${255}, ${3}, 1)`,
+                    background: `rgba(${(card.delta > 0 ? [0, 255, 0] : [255, 0, 0]).join(', ')}, 1)`,
                   }}
                 >
                 </div>
 
                 <div class={`name`}>
-                  <span>{card.delta}</span>
+                  <span>{Math.abs(card.delta)}</span>
                 </div>
               </div>
 
