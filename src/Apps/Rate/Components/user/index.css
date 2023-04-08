@@ -12,7 +12,7 @@
   align-items: center;
 
   width: calc(95%);
-  height: auto;
+  height: calc(100%);
 
   margin: 10px 0px 5px 0px;
   padding: 0px 20px 15px 20px;
@@ -39,7 +39,7 @@
   align-items: center;
   
 
-  width: calc(60%);
+  width: calc(100%);
   height: calc(100%);
 
   margin: 0px;
@@ -65,7 +65,7 @@
   justify-content: space-between;
   align-items: center;
 
-  width: calc(40%);
+  width: calc(100%);
   height: calc(100%);
 
   margin: 0px;
@@ -89,7 +89,7 @@
 
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 
   width: calc(100%);
   height: calc(100%);
@@ -117,7 +117,7 @@
   width: calc(100%);
   height: calc(2px);
 
-  margin: 0px 0px 0px 0px;
+  margin: 20px 0px 0px 0px;
   padding: 0px;
 
   border: none;
@@ -142,11 +142,11 @@
   display: -webkit-flex;
 
   flex-direction: column;
-  justify-content: center;
+  justify-content: baseline;
   align-items: baseline;
 
-  width: calc(80%);
-  height: auto;
+  width: calc(100%);
+  height: calc(100%);
 
   margin: 0px;
   padding: 0px;
@@ -172,7 +172,7 @@
   align-items: center;
 
   width: calc(100%);
-  height: calc(50%);
+  height: calc(100%);
 
   margin: 0px;
   padding: 0px;
@@ -250,7 +250,7 @@
   align-items: baseline;
 
   width: auto;
-  height: auto;
+  height: calc(50%);
 
   margin: 0px;
   padding: 0px;
@@ -295,11 +295,11 @@
   display: -webkit-flex;
 
   flex-direction: column;
-  justify-content: center;
+  justify-content: baseline;
   align-items: baseline;
 
-  width: calc(20% - 20px);
-  height: calc(100%);
+  width: calc(auto);
+  height: calc(50%);
 
   margin: 0px 20px 0px 0px;
   padding: 0px;
@@ -325,10 +325,10 @@
   justify-content: flex-start;
   align-items: center;
 
-  width: calc(50%);
+  width: calc(20%);
   height: calc(50%);
 
-  margin: 0px 0px 0px 0px;
+  margin: 0px 5px 0px 5px;
   padding: 2px 8px 2px 8px;
 
   border: none;
@@ -359,10 +359,10 @@
   justify-content: center;
   align-items: center;
 
-  width: calc(0.8vw);
-  height: calc(0.8vw);
+  width: calc(6px);
+  height: calc(6px);
 
-  margin: 0px 0px 0px 0px;
+  margin: 0px 2px 0px 2px;
   padding: 0px;
 
   border: none;
@@ -387,7 +387,7 @@
   align-items: center;
 
   width: calc(100%);
-  height: auto;
+  height: calc(100%);
 
   margin: 0px 5px 0px 5px;
   padding: 1px 2px 1px 2px;
@@ -414,8 +414,6 @@
   text-shadow: 0 0px 2px rgb(255 255 255 / 10%);
 }
 
-
-
 .customElement#rate > .field > .element > .right-block > .kpi {
   position: relative;
 
@@ -425,63 +423,12 @@
   display: -ms-flexbox;
   display: -webkit-flex;
 
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: baseline;
   align-items: right;
 
-  width: max-content;
-  height: max-content;
-  max-height: calc(10vh);
-  max-width: calc(10vh);
-
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-
-  border: none;
-  background: none;
-
-  z-index: 1;
-}
-
-
-
-.customElement#rate > .field > .element > .right-block > .kpi  > img {
-  position: relative;
-
-  display: block;
-
-  max-width: calc(100%);
   width: auto;
-  max-height: calc(100%);
-  height: auto;
-
-  margin: 0px;
-  padding: 0px;
-
-  border: none;
-  border-radius: 0px;
-  background: none;
-
-  z-index: 1;
-}
-
-.customElement#rate > .field > .element > .right-block > .kpi  > .value {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-
-  display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  width: calc(100%);
-  height: max-content;
+  height: calc(100%);
 
   margin: 0px;
   padding: 0px;
@@ -489,26 +436,25 @@
   border: none;
   background: none;
 
-  transform: translateX(-50%);
-
   z-index: 1;
 }
 
-.customElement#rate > .field > .element > .right-block > .kpi  > .value > span {
-  color: rgba(180, 180, 180, 0.8);
+.customElement#rate > .field > .element > .right-block > .kpi > span {
+  color: rgba(120, 120, 120, 0.95);
 
   font-family: 'Noto Sans', sans-serif;
   text-transform: none;
   text-decoration: none;
   text-align: center;
 
-  font-size: 300%;
-  line-height: 300%;
+  font-size: 3vw;
+  line-height: 3vw;
   letter-spacing: 0px;
   font-weight: 400;
-  text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
-}
+  text-shadow: 0 0px 2px rgb(255 255 255 / 45%);
 
+  transition: all 0.2s linear;
+}
 
 .customElement#rate > .field > .element > .right-block > .delta > span {
   color: rgba(120, 120, 120, 0.95);
