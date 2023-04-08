@@ -141,7 +141,7 @@ const Component: SolidJS.Component = () => {
       <div class={"header"}>
         <div class={"search"}>
           <div class={"button"} >
-            <i class="fa-regular fa-magnifying-glass"></i>
+            <span><i class="fa-regular fa-magnifying-glass"></i></span>
           </div>
           <input class={"input"}
             placeholder = "Поиск..."

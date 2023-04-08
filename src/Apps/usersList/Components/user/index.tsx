@@ -40,22 +40,22 @@ const Component: SolidJS.Component<userCardsList> = (_) => {
           {(card) => {
             const userElement: SolidJS.JSX.Element = (<div class='element'>
 
-            <div class={"name"}>
+            <div class={"firstName"}>
               {card.Name}
             </div>
-            <div class={"name"}>
+            <div class={"secondName"}>
               {card.secondName}
             </div>
-            <div class={"name"}>
+            <div class={"secondName"}>
               {card.thirdName}
             </div>
 
             <div class={`roles`} no-select={`true`}>
             </div>
 
-            <div class={"buttomContainer"}>
+            <div class={"buttomContainer1"}>
               <button class={"profile"}>
-                profile
+                <span>profile</span>
               </button>
             </div>
             </div>

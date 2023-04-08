@@ -181,6 +181,8 @@
   width: calc(12%);
   height: calc(60%);
 
+  font-size: 2vw;
+
   color: #777777;
 
   border-radius: 0px;
@@ -355,16 +357,26 @@
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  appearance: none;
 
-  margin: 5% 0% 0% 0%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0% 0% 0% 0%;
   padding: 0px;
 
-  width: calc(7%);
-  height: calc(50%);
+  width: calc(10%);
+  height: calc(100%);
 
   background: none;
 }
+
+.customElement#requests > .header > .search > .glass > span {
+  font-size: 3vw;
+}
+
+
+
 
 .customElement#requests > .header > .search > .input {
   outline: none;
@@ -374,7 +386,6 @@
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  appearance: none;
 
   flex-direction: row;
   justify-content: baseline;
@@ -383,7 +394,9 @@
   margin: 0px;
   padding: 0px;
 
-  width: calc(85%);
+  font-size: 2vw;
+
+  width: calc(90%);
   height: calc(70%);
   border: none;
   background: none;
@@ -405,6 +418,8 @@
   margin: 0px;
   padding: 0px;
   cursor: pointer;
+
+  font-size: 2.3vw;
 
   width: calc(8%);
   height: calc(50%);
