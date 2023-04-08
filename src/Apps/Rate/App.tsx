@@ -19,43 +19,49 @@ const Component: SolidJS.Component = () => {
         secondName: 'Martushenlo',
         thirdName: 'Orturovitch',
         delta: 22,
-        kpi: 255
+        kpi: 255,
+        IsAdmin: true
       },
       {
         Name: 'Tomas',
         secondName: 'Shyhinmaer',
         thirdName: 'Mich',
-        delta: 2321,
-        kpi: 25523
+        delta: 21,
+        kpi: 25523,
+        IsAdmin: false
       },
       {
-        Name: 'fgfgfg',
-        secondName: 'Martfffushenlo',
-        thirdName: 'Orturovitch',
-        delta: 22,
-        kpi: 255
-      },
-      {
-        Name: 'Tofdas',
-        secondName: 'Shyhffgfdinmaer',
-        thirdName: 'Midfgdch',
-        delta: 2321,
-        kpi: 25523
-      },
-      {
-        Name: 'Ortur',
-        secondName: 'Martushenlo',
-        thirdName: 'Orturovitch',
-        delta: 22,
-        kpi: 255
+        Name: 'Shssysshinmssaer',
+        secondName: 'Snmaer',
+        thirdName: 'Mich',
+        delta: 232,
+        kpi: 12,
+        IsAdmin: false
       },
       {
         Name: 'Tomas',
-        secondName: 'Shyhinmaer',
+        secondName: 'sds',
+        thirdName: 'Shyhinmaer',
+        delta: 21,
+        kpi: 223,
+        IsAdmin: false
+      },
+      {
+        Name: 'Tos',
+        secondName: 'Shyh',
+        thirdName: 'Mh',
+        delta: 2321,
+        kpi: 2523,
+        IsAdmin: false
+      },
+      {
+        Name: 'Osam',
+        secondName: 'Clone',
         thirdName: 'Mich',
         delta: 2321,
-        kpi: 25523
-      },
+        kpi: 22,
+        IsAdmin: false
+      }
 
      ]} />
     </div>
