@@ -1,0 +1,737 @@
+.customElement#projectForm {
+  position: fixed;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(100%);
+  height: calc(100%);
+
+  margin: 0;
+  padding: 0;
+
+  border: none;
+  background: none;
+
+  z-index: 2;
+}
+
+.customElement#projectForm > .form {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 65vw;
+  height: 70vh;
+
+  margin: 0;
+  padding: 2%;
+
+  border: none;
+  border-radius: 3vh;
+  background: rgba(15, 15, 15, 0.5);
+
+  z-index: 2;
+}
+
+
+.customElement#projectForm > .form > form {
+  position: relative;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(100%);
+  height: calc(100%);
+
+  margin: 0;
+  padding: 0;
+
+  border: none;
+  background: none;
+
+  z-index: 2;
+}
+
+.customElement#projectForm > .form > .header {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: calc(95%);
+  height: 5vw;
+
+  margin: 0;
+  padding: 0;
+
+  border: none;
+  background: none;
+
+  z-index: 2;
+}
+
+.customElement#projectForm > .form > .header > .name {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: max-content;
+  height: calc(100%);
+
+  margin: 3% 0 0 0;
+  padding: 0;
+
+  border: none;
+  background: none;
+
+  z-index: 2;
+}
+
+.customElement#projectForm > .form > .header > .name > span {
+  color: rgba(216, 2, 2, 0.9);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: center;
+
+  font-size: 5vw;
+  line-height: 2vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+}
+
+.customElement#projectForm > .form > .header > .close {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  appearance: none;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+
+  width: max-content;
+  height: max-content;
+
+  border-radius: 0;
+  color: rgba(235, 235, 235, 0.9);
+
+  text-decoration: none;
+  background: none;
+  border: none;
+}
+
+.customElement#projectForm > .form > .header > .close:hover:not(:active) {
+  background: none;
+}
+
+.customElement#projectForm > .form > .header > .close:hover:active {
+  top: 2px;
+}
+
+.customElement#projectForm > .form > form > .content {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(90%);
+  height: calc(100%);
+
+  margin: 5% 0 0 0;
+  padding: 0;
+
+  border: none;
+  background: none;
+
+  z-index: 2;
+}
+
+.customElement#projectForm > .form > form > .content > .name {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: calc(100%);
+  height: calc(10%);
+
+  margin: 2%;
+  padding: 2%;
+
+  border: none;
+  border-radius: 2vh;
+  background: rgba(15,15,15,0.1);
+
+  z-index: 2;
+}
+
+.customElement#projectForm > .form > form > .content > .name:hover {
+  transition: 0.3s;
+  background: rgba(15,15,15,0.18);
+}
+
+.customElement#projectForm > .form > form > .content > .name > .inputName {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: calc(96%);
+  height: calc(100%);
+
+  margin: 0;
+  padding: 2%;
+
+  border: none;
+  background: none;
+}
+
+.customElement#projectForm > .form > form > .content > .name > .inputName:focus {
+  outline: none;
+}
+
+.customElement#projectForm > .form > form > .content > .name > .inputName[is-valid='false'] {
+  color: rgba(235, 235, 235, 0.3);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: start;
+
+  font-size: 3vw;
+  line-height: 2vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+
+  border-bottom: 0.25vh solid rgba(216, 2, 2, 0.9);
+}
+
+.customElement#projectForm > .form > form > .content > .name > .inputName[is-valid='true'] {
+  color: rgba(235, 235, 235, 0.9);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: start;
+
+  font-size: 3vw;
+  line-height: 2vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+}
+
+
+.customElement#projectForm > .form > form > .content > .date {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: calc(100%);
+  height: calc(10%);
+
+  margin: 2%;
+  padding: 2%;
+
+  border: none;
+  border-radius: 2vh;
+  background: rgba(15,15,15,0.1);
+
+  z-index: 2;
+}
+
+.customElement#projectForm > .form > form > .content > .date:hover {
+  transition: 0.3s;
+  background: rgba(15,15,15,0.18);
+}
+
+.customElement#projectForm > .form > form > .content > .date > .inputDate {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(100%);
+  height: calc(100%);
+
+  margin: 0;
+  padding: 0 2% 0;
+
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.customElement#projectForm > .form > form > .content > .date > .inputDate[type=date] {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.customElement#projectForm > .form > form > .content > .date > .inputDate {
+  color: rgba(235, 235, 235, 0.9);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: start;
+
+  font-size: 3vw;
+  line-height: 3vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+
+}
+
+.customElement#projectForm > .form > form > .content > .leader {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: calc(100%);
+  height: calc(10%);
+
+  margin: 2%;
+  padding: 2%;
+
+  border: none;
+  border-radius: 2vh;
+  background: rgba(15,15,15,0.1);
+
+  z-index: 2;
+}
+
+.customElement#projectForm > .form > form > .content > .leader:hover {
+  transition: 0.3s;
+  background: rgba(15,15,15,0.18);
+}
+
+.customElement#projectForm > .form > form > .content > .leader > .inputLeader {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: calc(96%);
+  height: calc(100%);
+
+  margin: 0;
+  padding: 2%;
+
+  border: none;
+  background: none;
+
+  z-index: 2;
+}
+
+.customElement#projectForm > .form > form > .content > .leader > .inputLeader[is-valid='false'] {
+  color: rgba(235, 235, 235, 0.3);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: start;
+
+  font-size: 3vw;
+  line-height: 2vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+
+  border-bottom: 0.25vh solid rgba(216, 2, 2, 0.9);
+}
+
+.customElement#projectForm > .form > form > .content > .leader > .inputLeader[is-valid='true'] {
+  color: rgba(235, 235, 235, 0.9);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: start;
+
+  font-size: 3vw;
+  line-height: 2vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+}
+
+.customElement#projectForm > .form > form > .content > .leader > .list1 {
+  display: none;
+}
+
+.customElement#projectForm > .form > form > .content > .leader:hover > .list1 {
+  position: absolute;
+
+  top: 100%;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: calc(96%);
+  height: 7vh;
+
+  margin: 0;
+  padding: 0;
+
+  border: none;
+  background: rgba(120,120,120,1);
+
+  transform: translateY(-20%);
+
+  overflow-x: hidden;
+
+  z-index: 3;
+}
+
+
+
+.customElement#projectForm > .form > form > .content > .comment {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: calc(100%);
+  height: calc(35%);
+
+  margin: 2%;
+  padding: 2%;
+
+  border: none;
+  border-radius: 2vh;
+  background: rgba(15,15,15,0.1);
+
+  z-index: 2;
+}
+
+.customElement#projectForm > .form > form > .content > .comment:hover {
+  transition: 0.3s;
+  background-color: rgba(15,15,15,0.18);
+}
+
+.customElement#projectForm > .form > form > .content > .comment > .inputComment {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: calc(100%);
+  height: calc(100%);
+
+  margin: 0;
+  padding: 2%;
+
+  border: none;
+  background: none;
+  outline: none;
+  resize: none;
+
+  z-index: 2;
+}
+
+.customElement#projectForm > .form > form > .content > .comment > .inputComment {
+  color: rgba(235, 235, 235, 0.9);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: start;
+
+  font-size: 3vw;
+  line-height: 2vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+}
+
+
+.customElement#projectForm > .form > form > .button {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: max-content;
+  height: max-content;
+
+  margin: 0;
+  padding: 3%;
+
+  border: none;
+  border-radius: 2vh;
+  background: rgba(15, 15, 15, 0.1);
+
+  transition: 1s all;
+
+  z-index: 2;
+}
+
+.customElement#projectForm > .form > form > .button:active {
+  position: relative;
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: max-content;
+  height: max-content;
+
+  margin: 0;
+  padding: 3%;
+
+  border: none;
+  border-radius: 2vh;
+  background: rgba(15,15,15,0.1);
+
+  transform: scale(0.95);
+
+  z-index: 2;
+}
+
+.customElement#projectForm > .form > form > .button > span {
+  color: rgba(235, 235, 235, 0.9);
+
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  text-align: start;
+
+  font-size: 3vw;
+  line-height: 2vw;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-shadow: 0 0px 2px rgb(255 255 255 / 35%);
+}
+
+/*
+.customElement#projectForm > .form > form > .content > .leader {
+  color: blue;
+  font-size: 3.5vw;
+  margin: 0 2vw 5vh 3vw;
+
+}
+.customElement#projectForm > .form > form > .content >.leader > .users {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(100%);
+  height: max-content;
+
+  margin: 0px;
+  padding: 0.2vh 2vw 0.2vh 2vw;
+
+  border: none;
+  background: none;
+
+  z-index: 2;
+}
+
+.customElement#projectForm > .form > form > .content >.leader > .users > .list1 {
+  position: relative;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(100%);
+  height: calc(100%);
+
+  margin: 0px;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 2;
+}
+
+.customElement#projectForm > .form > form > .content >.leader > .users > .list1 > .user {
+  position: relative;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: calc(100%);
+  height: max-content;
+
+  margin: 0.2vh 2vw 0.2vh 2vw;
+  padding: 0px;
+
+  border: none;
+  background: none;
+
+  z-index: 2;
+}
+*/
+.customElement#projectForm > .form > form > .footer {
+  position: relative;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+
