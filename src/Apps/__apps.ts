@@ -13,3 +13,5 @@ export * as KPI from "./KPI/App"
 export * as Projectform from './ProjectForm/App'
 
 export * as rate from './Rate/App'
+
+export * as department from './Department/App'
